@@ -40,32 +40,23 @@ cv:
           - "Advisors: Francisco Veiga & Ambra Poggi"
 
     Research Interests:
-      - name: Microeconomics
-      - name: Experimental economics
-      - name: Inequality and intergenerational mobility
+      - bullet: Microeconomics
+      - bullet: Experimental economics
+      - bullet: Inequality and intergenerational mobility
 
-    Working Papers:
-      - title: "Human Capital in the Technological Era: a Theory of Expertise and Delegation"
-        authors:
-          - Andrea Ughetti
-        summary: A theory of individual delegation between human and machine expertise, showing that automation is governed by comparative rather than absolute advantage, and that myopic agents systematically over-delegate by ignoring the future value of forgone human capital.
+    Working Progress:
+      - label: "Human Capital in the Technological Era: a Theory of Expertise and Delegation"
+        details: "A theory of individual delegation between human and machine expertise, showing that automation is governed by comparative rather than absolute advantage, and that myopic agents systematically over-delegate by ignoring the future value of forgone human capital."
 
-      - title: "Uncovering the Micro Drivers of Macro Trends in Technology-Rich Labor Markets (provisional title)"
-        authors:
-          - Andrea Ughetti
-          - A. Galliera
-          - S. Ghisolfi
-          - F. Panebianco
-        summary: A theoretical model and a lab experiment linking worker-level production under unequal technology access to firm-level compensation design, identifying the channels through which new technology compresses or widens wage differences.
+      - label: "Uncovering the Micro Drivers of Macro Trends in Technology-Rich Labor Markets (provisional title)"
+        details: "With A. Galliera, S. Ghisolfi, and F. Panebianco. A theoretical model and a lab experiment linking worker-level production under unequal technology access to firm-level compensation design, identifying the channels through which new technology compresses or widens wage differences."
 
     Training:
-      - name: "3rd Summer School in Experimental and Behavioral Economics"
-        date: 2026
-        issuer: European Economic Review
+      - label: "3rd Summer School in Experimental and Behavioral Economics"
+        details: "European Economic Review, 2026"
 
-      - name: "24th Summer School in International and Development Economics"
-        date: 2025
-        issuer: Centro Studi Luca d'Agliano
+      - label: "24th Summer School in International and Development Economics"
+        details: "Centro Studi Luca d'Agliano, 2025"
 
     Awards:
       - title: "Research poster competition: \"The gap between reality and perceptions\""
@@ -77,7 +68,11 @@ cv:
 
     Skills:
       - name: Technical Skills
-        keywords: "Stata, R, Python, LaTeX"
+        keywords:
+          - Stata
+          - R
+          - Python
+          - LaTeX
 
     Languages:
       - name: Italian
