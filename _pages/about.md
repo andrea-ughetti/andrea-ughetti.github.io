@@ -26,6 +26,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Andrea Ughetti is a second-year PhD candidate in Economics and Finance at Università Cattolica del Sacro Cuore (DEFAP), working in microeconomic theory and experimental economics. His research centers on inequality and intergenerational mobility — how disparities are transmitted through individual decision-making, and how access to technology reshapes effort, delegation, and compensation. His work is primarily theoretical: building formal models of individual and strategic behavior, complemented by lab and field experiments that test their predictions.
-
-He holds a two-year double Master's degree in Economics from the University of Turin and the University of Minho (advisors: Francisco Veiga & Ambra Poggi), and a Bachelor's in Economics and Statistics from the University of Turin (advisor: Dalit Contini).
+I am a second-year PhD candidate in Economics and Finance at Università Cattolica del Sacro Cuore, working in microeconomic theory and experimental economics. My research centers on inequality and intergenerational mobility, and I try to understand how disparities are transmitted through individual decision-making, and how technology reshapes effort, delegation, and compensation. My work is primarily theoretical: building formal models of individual and strategic behavior, complemented by lab and field experiments that test their predictions.
