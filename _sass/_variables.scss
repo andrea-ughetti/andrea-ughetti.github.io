@@ -3,12 +3,15 @@
  * To adjust anything, simply edit the variables below and rebuild the theme.
  *
  * Local override of al_folio_core's _sass/_variables.scss (see
- * docs/CUSTOMIZE.md#changing-theme-color): only $purple-color was changed,
- * from the upstream #b509ac to a subtle dark green (#14532d). It still
- * drives --global-theme-color / --global-hover-color in light mode via
- * al_folio_core's _themes.scss, and $light-purple-color / $code-bg-color-light
- * below derive from it — the "purple" name is upstream's, kept as-is so this
- * override stays a one-line diff that `al-folio upgrade overrides diff` can
+ * docs/CUSTOMIZE.md#changing-theme-color). Two changes from upstream, both
+ * driving --global-theme-color / --global-hover-color via _themes.scss:
+ *  - $purple-color (light mode): #b509ac -> #14532d, the site accent green.
+ *    $light-purple-color / $code-bg-color-light derive from it.
+ *  - $cyan-color (dark mode): #2698ba -> the same green lightened ~20% for
+ *    contrast against the near-black dark-mode background (#14532d itself
+ *    reads as almost illegible text on #1c1c1d).
+ * The upstream variable names ("purple", "cyan") are kept as-is so this
+ * override stays a small diff that `al-folio upgrade overrides diff` can
  * track cleanly.
  ******************************************************************************/
 
@@ -20,14 +23,14 @@ $red-color-dark: #b71c1c !default;
 $orange-color: #f29105 !default;
 $blue-color: #0076df !default;
 $blue-color-dark: #00369f !default;
-$cyan-color: #2698ba !default;
+$purple-color: #14532d !default; // site accent (subtle dark green, was #b509ac upstream)
+$cyan-color: color.adjust($purple-color, $lightness: 20%) !default; // same green, lightened for dark-mode contrast (was #2698ba upstream)
 $light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
 $green-color: #00ab37 !default;
 $green-color-lime: #b7d12a !default;
 $green-color-dark: #009f06 !default;
 $green-color-light: #ddffdd !default;
 $green-color-bright: #11d68b !default;
-$purple-color: #14532d !default; // site accent (subtle dark green, was #b509ac upstream)
 $light-purple-color: color.adjust($purple-color, $lightness: 25%);
 $pink-color: #f92080 !default;
 $pink-color-light: #ffdddd !default;
