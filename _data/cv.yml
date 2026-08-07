@@ -22,16 +22,16 @@ cv:
   sections:
     Education:
       - institution: Università Cattolica del Sacro Cuore
-        location: Milan, Italy
+        location: Milan, IT
         area: Economics and Finance
         studyType: PhD
         start_date: 2024
-        end_date: present
+        end_date: 2028
         highlights:
           - "Supervisor: F. Panebianco"
 
       - institution: University of Turin - University of Minho
-        location: Turin, Italy - Braga, Portugal
+        location: Turin, IT - Braga, PT
         area: Economics
         studyType: MS (two-year double degree)
         start_date: 2021
