@@ -1,0 +1,47 @@
+---
+layout: page
+---
+{% comment %}
+  Local override of al_folio_core's _layouts/profiles.liquid (see
+  docs/ARCHITECTURE.md "local overrides"). One change from upstream: added
+  a `profile-wide` modifier class to the profile div, paired with a CSS
+  rule in the site's _sass/_components.scss override, so this page's
+  (landscape) photo can render larger without also enlarging the about
+  page's photo — both layouts share the same `.profile` class, so sizing
+  had to be opted into per-layout rather than per-class. sizes below is
+  updated to match (45% instead of upstream's 30%) so the responsive
+  image picks an appropriately-sized source.
+{% endcomment %}
+<div class="post">
+  <article>
+    {% if page.profiles %}
+      {% for profile in page.profiles %}
+        <hr>
+        <div class="profile profile-wide float-{% if profile.align == 'left' %}left{% else %}right{% endif %}">
+          {% if profile.image %}
+            {% assign profile_image_path = profile.image | prepend: 'assets/img/' %}
+            {% if profile.image_circular %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+            {% else %}
+              {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+            {% endif %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.45}}px, (min-width: 576px) 45vw, 95vw"{% endcapture %}
+            {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile.image %}
+          {% endif %}
+          {% if profile.more_info %}
+            <div class="more-info">{{ profile.more_info }}</div>
+          {% endif %}
+        </div>
+
+        <div class="clearfix">
+          {% if profile.content %}
+            {% capture profile_content %}{% include_relative {{ profile.content }} %}{% endcapture %}
+            {{ profile_content | markdownify }}
+          {% else %}
+            {{ content }}
+          {% endif %}
+        </div>
+      {% endfor %}
+    {% endif %}
+  </article>
+</div>
