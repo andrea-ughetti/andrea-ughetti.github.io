@@ -6,6 +6,6 @@ nav: true
 nav_order: 2
 cv_pdf: /assets/pdf/andrea_ughetti_cv.pdf # you can also use external links here
 cv_format: rendercv # options: rendercv, jsonresume
-description: Curriculum vitae of Andrea Ughetti, PhD candidate in Economics and Finance at DEFAP, Università Cattolica del Sacro Cuore.
+description: Curriculum vitae of Andrea Ughetti
 keywords: Andrea Ughetti, CV, resume, curriculum vitae, DEFAP, Università Cattolica, PhD Economics, microeconomic theory
 ---
