@@ -39,6 +39,16 @@ cv:
         highlights:
           - "Advisors: Francisco Veiga & Ambra Poggi"
 
+      - institution: University of Turin
+        location: Turin, IT
+        area: Economics & Statistics
+        studyType: B.Sc.
+        start_date: 2017
+        end_date: 2021
+        highlights:
+          - "Advisors: Dalit Contini"
+
+
     Research Interests:
       - bullet: Microeconomics
       - bullet: Experimental economics
