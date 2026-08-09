@@ -2,14 +2,14 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate in Economics and Finance, Università Cattolica del Sacro Cuore (DEFAP)
+subtitle: PhD Candidate in Economics @ Università Cattolica del Sacro Cuore (DEFAP)
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Largo A. Gemelli 1</p>
+    <p>Via Ludovico Necchi, 5</p>
     <p>20123 Milan, Italy</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -26,4 +26,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a second-year PhD candidate in Economics and Finance at Università Cattolica del Sacro Cuore, working in microeconomic theory and experimental economics. My research centers on inequality and intergenerational mobility, and I try to understand how disparities are transmitted through individual decision-making, and how technology reshapes effort, delegation, and compensation. My work is primarily theoretical: building formal models of individual and strategic behavior, complemented by lab and field experiments that test their predictions.
+I am a second-year PhD candidate in Economics at Università Cattolica del Sacro Cuore, working in microeconomic theory and experimental economics. 
+
+My research centers on inequality and intergenerational mobility, and I try to understand how disparities are transmitted through individual decision-making, and how technology reshapes effort, delegation, and compensation. My work is primarily theoretical: building formal models of individual and strategic behavior, complemented by lab and field experiments that test their predictions.
