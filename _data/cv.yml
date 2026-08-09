@@ -13,7 +13,7 @@ cv:
       username: 0009-0009-3932-2561
 
   address:
-    street: Largo A. Gemelli 1
+    street: Via Ludovico Necchi 5
     city: Milan
     region: ""
     postalCode: "20123"
@@ -24,7 +24,7 @@ cv:
       - institution: Università Cattolica del Sacro Cuore
         location: Milan, IT
         area: Economics and Finance
-        studyType: PhD
+        studyType: Ph.D.
         start_date: 2024
         end_date: 2028
         highlights:
@@ -33,7 +33,7 @@ cv:
       - institution: University of Turin - University of Minho
         location: Turin, IT - Braga, PT
         area: Economics
-        studyType: MS (two-year double degree)
+        studyType: M.Sc. (two-year double degree)
         start_date: 2021
         end_date: 2023
         highlights:
@@ -44,7 +44,7 @@ cv:
       - bullet: Experimental economics
       - bullet: Inequality and intergenerational mobility
 
-    Working Progress:
+    Work in Progress:
       - label: "Human Capital in the Technological Era: a Theory of Expertise and Delegation"
         details: "A theory of individual delegation between human and machine expertise, showing that automation is governed by comparative rather than absolute advantage, and that myopic agents systematically over-delegate by ignoring the future value of forgone human capital."
 
