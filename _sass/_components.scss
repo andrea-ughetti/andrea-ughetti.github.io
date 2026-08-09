@@ -119,6 +119,14 @@ ul.task-list input[type="checkbox"] {
       }
     }
   }
+
+  // Local addition (see _layouts/profiles.liquid): a landscape photo at the
+  // upstream 30% column width renders too short next to a multi-paragraph
+  // text block, since width and height scale together for a fixed-aspect
+  // image. Widening the column makes the photo taller in proportion.
+  .profile.profile-wide {
+    width: 45%;
+  }
 }
 
 // CV
