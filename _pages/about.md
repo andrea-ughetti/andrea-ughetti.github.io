@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate in Economics @ Università Cattolica del Sacro Cuore (DEFAP)
+subtitle:
 
 profile:
   align: right
