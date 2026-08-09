@@ -4,7 +4,7 @@ permalink: /beyond-research/
 title: beyond research
 description: Andrea Ughetti's work organizing cultural events, including Zana Fest | Correnti di Valle, a music, culture, and sport festival in Paesana, Piedmont.
 keywords: Zana Fest, Correnti di Valle, Paesana, Piedmont, Valle Po, cultural events, music festival, community organizing
-og_image: zana_fest_team.jpg
+og_image: /assets/img/zana_fest_team.jpg
 nav: true
 nav_order: 3
 

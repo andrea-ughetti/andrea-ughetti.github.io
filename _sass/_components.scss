@@ -8,7 +8,13 @@
  * so they read as plain grey/black most of the time. Both states now use
  * the accent (--global-theme-color at rest, --global-hover-color on hover)
  * so the green shows up there too, not just in body text links.
+ * `.post-title-accent` (see _layouts/page.liquid override): the page title
+ * itself, on the research and beyond-research pages.
  ******************************************************************************/
+
+.post-title-accent {
+  color: var(--global-theme-color);
+}
 
 // Checklist
 
@@ -123,9 +129,9 @@ ul.task-list input[type="checkbox"] {
   // Local addition (see _layouts/profiles.liquid): a landscape photo at the
   // upstream 30% column width renders too short next to a multi-paragraph
   // text block, since width and height scale together for a fixed-aspect
-  // image. Widening the column makes the photo taller in proportion.
+  // image. Widening the column makes the photo bigger/taller in proportion.
   .profile.profile-wide {
-    width: 45%;
+    width: 60%;
   }
 }
 
