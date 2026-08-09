@@ -2,8 +2,8 @@
 layout: page
 permalink: /publications/
 title: research
-description: Research by Andrea Ughetti on delegation between human and machine expertise, human capital accumulation, and how technology-driven automation reshapes redistribution and wage inequality.
-keywords: Andrea Ughetti, delegation, human capital, automation, wage inequality, redistribution, labor economics, microeconomic theory
+description: Research by Andrea Ughetti on human capital, technology, and the transmission of inequalities.
+keywords: Andrea Ughetti, delegation, human capital, automation, inequality, redistribution, labor economics, microeconomic theory
 nav: true
 nav_order: 1
 ---
