@@ -9,7 +9,7 @@ layout: page
   (landscape) photo can render larger without also enlarging the about
   page's photo — both layouts share the same `.profile` class, so sizing
   had to be opted into per-layout rather than per-class. sizes below is
-  updated to match (45% instead of upstream's 30%) so the responsive
+  updated to match (60% instead of upstream's 30%) so the responsive
   image picks an appropriately-sized source. Also: alt text now prefers
   an explicit profile.image_alt over the raw filename upstream fell back
   to (e.g. "zana_fest_team.jpg" as alt text).
@@ -27,7 +27,7 @@ layout: page
             {% else %}
               {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
             {% endif %}
-            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.45}}px, (min-width: 576px) 45vw, 95vw"{% endcapture %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.6}}px, (min-width: 576px) 60vw, 95vw"{% endcapture %}
             {% assign profile_image_alt = profile.image_alt | default: profile.image %}
             {% include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=profile_image_alt %}
           {% endif %}

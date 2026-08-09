@@ -1,0 +1,43 @@
+---
+layout: default
+---
+{% comment %}
+  Local override of al_folio_core's _layouts/page.liquid (see
+  docs/ARCHITECTURE.md "local overrides"). One change from upstream: the
+  page title gets a `post-title-accent` class on the research and
+  beyond-research pages specifically, paired with a CSS rule in the
+  site's _sass/_components.scss override. Reason: upstream's
+  `.publications h1 { color: var(--global-theme-color); }` (in
+  _publications.scss) never actually matches this title — the h1 lives
+  in <header class="post-header">, a sibling of <div class="publications">,
+  not a descendant of it — so it was dead CSS and the title rendered in
+  the plain text color with no visible green at all in light mode.
+{% endcomment %}
+{% if page._styles %}
+  <!-- Page/Post style -->
+  <style type="text/css">
+    {{ page._styles }}
+  </style>
+{% endif %}
+
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title{% if page.permalink == '/publications/' or page.permalink == '/beyond-research/' %} post-title-accent{% endif %}">{{ page.title }}</h1>
+    <p class="post-description">{{ page.description }}</p>
+  </header>
+
+  <article>
+    {{ content }}
+  </article>
+
+  {% if page.related_publications %}
+    <h2>References</h2>
+    <div class="publications">
+      {% bibliography --cited_in_order %}
+    </div>
+  {% endif %}
+
+  {% if site.plugins contains 'al_comments' %}
+    {% include plugins/al_comments.liquid %}
+  {% endif %}
+</div>
