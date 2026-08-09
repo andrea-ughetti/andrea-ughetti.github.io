@@ -2,10 +2,14 @@
  * Publication and bibliography styles
  *
  * Local override of al_folio_core's _sass/_publications.scss (see
- * docs/CUSTOMIZE.md#changing-theme-color). One change from upstream:
+ * docs/CUSTOMIZE.md#changing-theme-color). Two changes from upstream to
  * h2.bibliography (the group heading jekyll-scholar prints above each
- * group, e.g. "work in progress") was text-align: right; left-aligned
- * per request.
+ * group, e.g. "work in progress"):
+ *  - text-align: right -> left.
+ *  - color: var(--global-divider-color) -> var(--global-theme-color).
+ *    --global-divider-color is rgba(0,0,0,0.1) in light mode — a subtle
+ *    divider tint, fine for a bare year but too low-contrast (~1.1:1
+ *    against white) to read as a heading once it says "work in progress".
  ******************************************************************************/
 
 @use "variables" as v;
@@ -30,7 +34,7 @@
   }
 
   h2.bibliography {
-    color: var(--global-divider-color);
+    color: var(--global-theme-color);
     border-top: 1px solid var(--global-divider-color);
     padding-top: 1rem;
     margin-top: 2rem;
