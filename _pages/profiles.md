@@ -7,22 +7,11 @@ nav: true
 nav_order: 3
 
 profiles:
-  # if you want to include more than one profile, just replicate the following block
-  # and create one content file for each profile inside _pages/
   - align: right
     image: prof_pic.jpg
-    content: about_einstein.md
     image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
-  - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>555 your office number</p>
-      <p>123 your address street</p>
-      <p>Your City, State 12345</p>
 ---
+
+Research is where most of my time goes, but not all of it. For close to a decade, I've been organizing cultural events — starting small, growing into larger community projects — because I care as much about building things people gather around as I do about the questions I study.
+
+The project I'm proudest of is Zana Fest \| Correnti di Valle, a festival of music, culture, and sport built around the relationship between people and the natural world — forests and mountains, specifically. I founded it in Paesana, the small alpine village where I grew up. Sustainability and participation sit at the center of how it runs: we promote local artistic talent, prioritize eco-friendly materials, and make it a point of leaving every venue in better condition than we found it.
