@@ -30,4 +30,6 @@ latest_posts:
 
 I am a second-year PhD candidate in Economics at **Università Cattolica del Sacro Cuore**, working in **microeconomic theory** and **experimental economics**. 
 
-My research centers on **inequality** and **intergenerational mobility**, and I try to understand how disparities are transmitted through individual decision-making, and how technology reshapes effort, delegation, and compensation. My work is primarily theoretical: building formal models of individual and strategic behavior, complemented by lab and field experiments that test their predictions.
+My research centers on **inequality** and **intergenerational mobility**, and I try to understand how disparities are transmitted through individual decision-making, and how technology reshapes effort, delegation, and compensation. 
+
+My work is primarily theoretical: building formal models of individual and strategic behavior, complemented by lab and field experiments that test their predictions.
