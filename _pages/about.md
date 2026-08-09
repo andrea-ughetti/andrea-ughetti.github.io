@@ -3,6 +3,8 @@ layout: about
 title: about
 permalink: /
 subtitle:
+description: Andrea Ughetti — PhD candidate in Economics and Finance at Università Cattolica del Sacro Cuore (DEFAP), working on microeconomic theory, experimental economics, and inequality.
+keywords: Andrea Ughetti, Economics, Microeconomics, Theory, Experimental Economics, Human Capital, Inequality, DEFAP, Università Cattolica
 
 profile:
   align: right
