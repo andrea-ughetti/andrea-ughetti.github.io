@@ -28,8 +28,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a third-year PhD candidate in Economics at **Università Cattolica del Sacro Cuore**, working in **microeconomic theory** and **experimental economics**. My supervisors are [Arianna Galliera](https://sites.google.com/view/ariannagalliera), [Selene Ghisolfi](https://sites.google.com/view/seleneghisolfi/), [Fabrizio Panebianco](https://sites.google.com/site/fpanebianco/fabrizio-panebianco?pli=1&authuser=0).  
+I am a PhD candidate in Economics at **Università Cattolica del Sacro Cuore**, supervised by [Arianna Galliera](https://sites.google.com/view/ariannagalliera), [Selene Ghisolfi](https://sites.google.com/view/seleneghisolfi/), and [Fabrizio Panebianco](https://sites.google.com/site/fpanebianco/fabrizio-panebianco?pli=1&authuser=0).
 
-My research centers on **inequality** and **intergenerational mobility**, and I try to understand how disparities are transmitted through individual decision-making, and how technology reshapes effort, delegation, and compensation. 
+I am interested in understanding how **inequalities** are transmitted through individual decision-making, and how **technology** reshapes effort, delegation, and compensation.
 
-My work is primarily theoretical: building formal models of individual and strategic behavior, complemented by lab and field experiments that test their predictions.
+To study this, I use **microeconomic theory** and **experimental economics**.
+
+Current research interests:
+
+- Microeconomic theory
+- Experimental economics
+- Inequality
+- Technology and work
