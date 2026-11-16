@@ -34,7 +34,7 @@ I am interested in understanding how **inequalities** are transmitted through in
 
 To study this, I use **microeconomic theory** and **experimental economics**.
 
-Current research interests:
+**Current research interests**:
 
 - Microeconomic theory
 - Experimental economics
