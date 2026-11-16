@@ -74,7 +74,10 @@ jobs:
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3.5"
+          # Floating patch version: a pinned patch (e.g. "3.3.5") 404s once
+          # ubuntu-latest moves to a runner image for which ruby-builder only
+          # ships the latest patch of each minor series.
+          ruby-version: "3.3"
           bundler-cache: true
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
